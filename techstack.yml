@@ -1,0 +1,69 @@
+repo_name: AlexcastroDev/node-streams
+report_id: ac00ceddb83123bf9c1bab42d21d2db4
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:22:32+00:00'
+requested_by: AlexcastroDev
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/AlexcastroDev/node-streams
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/AlexcastroDev/node-streams
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/AlexcastroDev/node-streams/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-10-05 21:35:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/AlexcastroDev/node-streams/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-10-05 21:34:24.000000000 Z
+- name: csv-parse
+  description: CSV parsing implementing the Node.js `stream.Transform` API
+  package_url: https://www.npmjs.com/csv-parse
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/AlexcastroDev/node-streams/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-10-05 21:34:24.000000000 Z
